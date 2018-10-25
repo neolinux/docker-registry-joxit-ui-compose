@@ -14,7 +14,7 @@ services:
     image: joxit/docker-registry-ui:static
     restart: always
     ports:
-      - 8080:80
+      - 8083:80
     environment:
       - REGISTRY_URL=http://registry-srv:5000
       - DELETE_IMAGES=true
